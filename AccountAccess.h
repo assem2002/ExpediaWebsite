@@ -31,6 +31,7 @@ void add_card(user* currentUser){
     currentUser->allCards.push_back({name,address,id,expiryDate,cardTypes[cardType-1],ccv,cardProvider});
     std::cout<<"\n\n Would you like to add another card?";
     std::cout<<"\n1)Yes\n2)No";
+    std::cout<<"\nEnter Choice 1-2:";
     std::string yesNo;
     std::getline(std::cin,yesNo);
     if (yesNo == "2") break;
