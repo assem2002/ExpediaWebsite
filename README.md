@@ -1,11 +1,11 @@
 # What This Project About (Expect Nothing Wow !)
-It's a console program similiar to Expedia website for reserving a whole itinerary that include flights, hotels, cars and more.
+It's a console program similar to Expedia website for reserving a whole itinerary that includes flights, hotels, cars and more.
 
-This project is meant to be an implementaion on my knowledge about the OOP paradigm in my journey of learning about it from [Dr.mostafa Saad course](https://www.udemy.com/course/cpp-4skills/) specially the runtime polymorphism concept, So I tried hard to make the code generic as possible for future feature adding by following the interfaces made (you can check the UML for more explaination)
+This project is meant to be an implementaion on my knowledge about the OOP paradigm in my journey of learning OOP concepts from [Dr.mostafa Saad's course](https://www.udemy.com/course/cpp-4skills/) it's foucsed on the runtime polymorphism concept, So I tried hard to make the code generic as possible for future feature adding by following the interfaces made (you can check the UML for more explaination)
 
 
 # UML Diagram (Check The [PDF](https://github.com/assem2002/ExpediaWebsite/blob/1f293ea77a948186e68d2fc821433d8f7bfa95b5/UML%20Digram%20PDF.pdf))
-Check out the UML diagram for clearer understanding to the nature of my OO design.
+Check out the UML diagram for clearer understanding of the nature to my OO design.
 
 ![image](https://github.com/assem2002/ExpediaWebsite/blob/e306ea0004271229860f5e637515234403c43abd/UML%20Digram.png)
 
@@ -13,21 +13,21 @@ Check out the UML diagram for clearer understanding to the nature of my OO desig
 # How To Use It
 You can simply download the [exe](https://github.com/assem2002/ExpediaWebsite/blob/e306ea0004271229860f5e637515234403c43abd/Expedia_Project.exe)  file and run it (Dummy User-> username:assem00,password:0000).
 
-if doesn't work that way you can download the files and just compile the main.cpp file using g++ compiler.
+if exe doesn't work, You can download the files and just compile the main.cpp file using g++ compiler.
 
-The program has friendly console interface instructions to make you go along with the program such as :
+The program has friendly-console interface instructions to make you go along with the program such as :
 
 **Login/Signup menu:**
 
-this menu provide user login and signup methods,so it checks for existing users and gives the proper action to take by using simple looping on the existing data
+this menu provide login and signup methods. it checks for existing users and gives the proper action to take by using simple looping and if conditions on the existing user data.
 
 ![image](https://github.com/assem2002/ExpediaWebsite/blob/e306ea0004271229860f5e637515234403c43abd/ScreenShots/Program%20Start.png)
 
-**Make An itinerary (Flights & Hotel for now)**
+**Make An itinerary (Flights & Hotel Room for now)**
 
-this function has the most complex part of the program as it make queries on sevral services such as hotel and flights and each service you can query a reservation from your own choice and the program would call every API it has access to query for your flight specific choice or room choice and display every possible choice from the various APIs (absolutely the data returned are dummy as I got no real working API).
+This function has the most complex part of the program as it make queries on several services such as hotels and flights and for each service you can query a specific reservation from your own choice and the program would call every API it has access to then query for your flight specific choice or room choice and display every possible choice from the various APIs (absolutely the data returned are dummy as I got no real working APIs they're made by the course instructor for the purpose of learning).
 
-I had to make querying on every service very generic to have the ability of quering by using simple unified object as query request passed to the interfaces of my made that talk to the various APIs(Check UML PDF).
+I had to make quering on every service very generic, so I made a  simple unified object to use it for making query request on the various APIs (Check UML PDF).
 
 ![image](https://github.com/assem2002/ExpediaWebsite/blob/e306ea0004271229860f5e637515234403c43abd/ScreenShots/Make%20An%20Itinerary.png)
 
@@ -43,7 +43,7 @@ I had to make querying on every service very generic to have the ability of quer
 
 You can add payment cards when you signup or when you check out from the itinerary you just made.
 
-I tried to make a genreic code (Interface for the credit cards to for future new-card-providors adding ) as the cards withdraw methods gets done throught APIs provided by the company of the card.
+I tried to make a genreic code (Interface for the credit cards for later new-card-providors adding) as the cards withdraw methods gets done throught APIs provided by the company of the card.
 
 ![image](https://github.com/assem2002/ExpediaWebsite/blob/e306ea0004271229860f5e637515234403c43abd/ScreenShots/Pay%20For%20Itinerary.png)
 
