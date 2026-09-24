@@ -11,9 +11,7 @@ Check out the UML diagram for clearer understanding of the nature to my OO desig
 
 
 # How To Use It
-You can simply download the [exe](https://github.com/assem2002/ExpediaWebsite/blob/e306ea0004271229860f5e637515234403c43abd/Expedia_Project.exe)  file and run it (Dummy User-> username:assem00,password:0000).
-
-if exe doesn't work, You can download the files and just compile the main.cpp file using g++ compiler.
+You can download the files and just compile the main.cpp file using g++ compiler.
 
 The program has friendly-console interface instructions to make you go along with the program such as :
 
